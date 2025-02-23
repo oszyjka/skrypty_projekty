@@ -1,0 +1,8 @@
+# Gemfile
+source 'https://rubygems.org'
+
+gem 'httparty'
+gem 'faker'
+gem 'nokogiri'
+gem 'sleep'
+gem 'open-uri'
