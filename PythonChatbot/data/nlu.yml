@@ -1,0 +1,118 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: check_hours
+  examples: |
+    - What are your opening hours?
+    - What time do you close?
+    - Is the restaurant open right now?
+
+- intent: list_menu
+  examples: |
+    - What food do you have?
+    - Show me the menu
+    - What can I order?
+
+- intent: order_food
+  examples: |
+    - I want to order a pizza
+    - Can I get a burger?
+    - I'd like some spaghetti
+    - Order a hot-dog without ketchup
+    - I would like a pizza with extra cheese
+
+- intent: provide_address
+  examples: |
+    - My address is Aleja Niepodległości 57 Warszawa
+    - Deliver to ul.Słoneczna 125 Kraków
+    - Send the food at ul. Tulipanowa 34 Katowice
+    - Here is my location: ul. Garncarska 14 Poznań
